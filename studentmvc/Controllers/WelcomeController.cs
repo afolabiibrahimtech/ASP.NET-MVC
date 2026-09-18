@@ -7,16 +7,24 @@ namespace studentmvc.Controllers;
 
 public class WelcomeController : Controller
 {
-    public string Index()
-    {
-        return"This is my main or default action...";
-    }
+    // public string Index()
+    // {
+    //     return "This is my main or default action...";
+    // }
+
      public string Greeting()
     {
-        return"hello again";
+        return "Hello again";
     }
-    public string Greetingbyname( string name , int numtimes = 1)
+
+    public IActionResult Index()
     {
-        return HtmlEncoder.Default.Encode($"Hello,{name} again, you access this page{numtimes}");
+        return View();
+    }
+
+    //GET: /Welcome/Greetingbyname?name=Mary&numtimes=4
+     public string Greetingbyname( string name , int numtimes = 1)
+    {
+        return  HtmlEncoder.Default.Encode( $"Hello,{name} again, you access this page {numtimes}");
     }
 }

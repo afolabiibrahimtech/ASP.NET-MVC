@@ -1,98 +1,198 @@
-C:\New class\studentmvc\bin\Debug\net10.0\appsettings.Development.json
-C:\New class\studentmvc\bin\Debug\net10.0\appsettings.json
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.runtime.json
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.endpoints.json
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.exe
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.deps.json
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.runtimeconfig.json
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.dll
-C:\New class\studentmvc\bin\Debug\net10.0\studentmvc.pdb
-C:\New class\studentmvc\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.GeneratedMSBuildEditorConfig.editorconfig
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfoInputs.cache
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfo.cs
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.csproj.CoreCompileInputs.cache
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.MvcApplicationPartsAssemblyInfo.cache
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cache
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cs
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.sourcelink.json
-C:\New class\studentmvc\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\New class\studentmvc\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\New class\studentmvc\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\New class\studentmvc\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\New class\studentmvc\obj\Debug\net10.0\scopedcss\bundle\studentmvc.styles.css
-C:\New class\studentmvc\obj\Debug\net10.0\scopedcss\projectbundle\studentmvc.bundle.scp.css
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ndwxlb0kmt-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\oac2osngf4-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\qvcrpcvy84-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\b0791k7jwe-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\1fomx7ad82-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\34pu85yjnp-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\n5w9vt1aku-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\usqgnqlmoe-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\wjxtv8agvs-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\llzzui8kvs-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\pj8ymo8sy9-{0}-ub07r2b239-ub07r2b239.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\to7h3z3zxa-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\7jsdepej2g-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\uh5h55n5qn-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ayddvubfqe-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\hk8r4h9iia-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\wgwpfn7ji5-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\apra9wa3nu-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\hs8b5imlgl-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ow9k00l8r1-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\xrg2zsl297-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\tmwq2cwago-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\73lgracrnj-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ji03x6x4f8-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\5b9giuprkf-{0}-06098lyss8-06098lyss8.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\rpnxlxmcyd-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\irk6w1x7wn-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ghxiimntns-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\04u3q9wc6w-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\32ap0kv3wn-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\rue1q58z9w-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\icnj6yrq2x-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\o1c7q1gtoe-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\d8ue3djh1j-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\8dx61av5b0-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\2y4ihtj5fo-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\35puwcnm2b-{0}-493y06b0oq-493y06b0oq.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\muckl8rj7v-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\76txa8igb0-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\9q05j4tkmk-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\6070wt4d9f-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\hbmjn18fzh-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\nlcxszjppz-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\36i5xtgzha-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\rfjc3g0qwr-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\51z0te50n2-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ort3chdw4x-{0}-47otxtyo56-47otxtyo56.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\mz2v3w0mlg-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\51pkujmsy8-{0}-356vix0kms-356vix0kms.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\me4jjvk3d1-{0}-83jwlth58m-83jwlth58m.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\g9aphxrnyu-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\httrrt1a1k-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\t3sujb96sk-{0}-ag7o75518u-ag7o75518u.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\gefpy98fwq-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\wikdo0logo-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\dk3g56pr1s-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\g48immf8oa-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\rjpyahz0hl-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\nv8b2srl5e-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\cyyvt47gyw-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\so4buxsyd9-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\n0893xvcfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\bq980zevfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
-C:\New class\studentmvc\obj\Debug\net10.0\staticwebassets.build.json
-C:\New class\studentmvc\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\New class\studentmvc\obj\Debug\net10.0\staticwebassets.development.json
-C:\New class\studentmvc\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\New class\studentmvc\obj\Debug\net10.0\swae.build.ex.cache
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.dll
-C:\New class\studentmvc\obj\Debug\net10.0\refint\studentmvc.dll
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.pdb
-C:\New class\studentmvc\obj\Debug\net10.0\studentmvc.genruntimeconfig.cache
-C:\New class\studentmvc\obj\Debug\net10.0\ref\studentmvc.dll
-C:\New class\studentmvc\obj\Debug\net10.0\compressed\ynjpxty8pk-{0}-4wts4bri6v-4wts4bri6v.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\appsettings.Development.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\appsettings.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.runtime.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.endpoints.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.exe
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.deps.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.runtimeconfig.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.dll
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\bin\Debug\net10.0\studentmvc.pdb
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.GeneratedMSBuildEditorConfig.editorconfig
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfoInputs.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfo.cs
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.csproj.CoreCompileInputs.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.MvcApplicationPartsAssemblyInfo.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cs
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.sourcelink.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\scopedcss\bundle\studentmvc.styles.css
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\scopedcss\projectbundle\studentmvc.bundle.scp.css
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ndwxlb0kmt-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\oac2osngf4-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\qvcrpcvy84-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\b0791k7jwe-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\1fomx7ad82-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\34pu85yjnp-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\n5w9vt1aku-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\usqgnqlmoe-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\wjxtv8agvs-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\llzzui8kvs-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\pj8ymo8sy9-{0}-ub07r2b239-ub07r2b239.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\to7h3z3zxa-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\7jsdepej2g-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\uh5h55n5qn-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ayddvubfqe-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\hk8r4h9iia-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\wgwpfn7ji5-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\apra9wa3nu-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\hs8b5imlgl-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ow9k00l8r1-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\xrg2zsl297-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\tmwq2cwago-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\73lgracrnj-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ji03x6x4f8-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\5b9giuprkf-{0}-06098lyss8-06098lyss8.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\rpnxlxmcyd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\irk6w1x7wn-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ghxiimntns-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\04u3q9wc6w-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\32ap0kv3wn-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\rue1q58z9w-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\icnj6yrq2x-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\o1c7q1gtoe-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\d8ue3djh1j-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\8dx61av5b0-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\2y4ihtj5fo-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\35puwcnm2b-{0}-493y06b0oq-493y06b0oq.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\muckl8rj7v-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\76txa8igb0-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\9q05j4tkmk-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\6070wt4d9f-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\hbmjn18fzh-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\nlcxszjppz-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\36i5xtgzha-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\rfjc3g0qwr-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\51z0te50n2-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ort3chdw4x-{0}-47otxtyo56-47otxtyo56.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\mz2v3w0mlg-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\51pkujmsy8-{0}-356vix0kms-356vix0kms.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\me4jjvk3d1-{0}-83jwlth58m-83jwlth58m.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\g9aphxrnyu-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\httrrt1a1k-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\t3sujb96sk-{0}-ag7o75518u-ag7o75518u.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\gefpy98fwq-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\wikdo0logo-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\dk3g56pr1s-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\g48immf8oa-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\rjpyahz0hl-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\nv8b2srl5e-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\cyyvt47gyw-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\so4buxsyd9-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\n0893xvcfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\bq980zevfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\staticwebassets.build.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\staticwebassets.development.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\swae.build.ex.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.dll
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\refint\studentmvc.dll
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.pdb
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\studentmvc.genruntimeconfig.cache
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\ref\studentmvc.dll
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\ynjpxty8pk-{0}-8rvbuzrabx-8rvbuzrabx.gz
+D:\0_Fall2026\SODV3201-0\Classexampleworkspace\studentmvc\obj\Debug\net10.0\compressed\lcj0zb9f3c-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\appsettings.Development.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\appsettings.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.runtime.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.staticwebassets.endpoints.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.exe
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.deps.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.runtimeconfig.json
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.dll
+C:\ASP.NET MVC\studentmvc\bin\Debug\net10.0\studentmvc.pdb
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfoInputs.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.AssemblyInfo.cs
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.csproj.CoreCompileInputs.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.MvcApplicationPartsAssemblyInfo.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.RazorAssemblyInfo.cs
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.sourcelink.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\scopedcss\bundle\studentmvc.styles.css
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\scopedcss\projectbundle\studentmvc.bundle.scp.css
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ynjpxty8pk-{0}-63jutn7chb-63jutn7chb.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\lcj0zb9f3c-{0}-5ipweew5fc-5ipweew5fc.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ndwxlb0kmt-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\oac2osngf4-{0}-fr7q2aak1r-fr7q2aak1r.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\qvcrpcvy84-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\b0791k7jwe-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\1fomx7ad82-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\34pu85yjnp-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\n5w9vt1aku-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\usqgnqlmoe-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\wjxtv8agvs-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\llzzui8kvs-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\pj8ymo8sy9-{0}-ub07r2b239-ub07r2b239.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\to7h3z3zxa-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\7jsdepej2g-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\uh5h55n5qn-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ayddvubfqe-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\hk8r4h9iia-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\wgwpfn7ji5-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\apra9wa3nu-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\hs8b5imlgl-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ow9k00l8r1-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\xrg2zsl297-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\tmwq2cwago-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\73lgracrnj-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ji03x6x4f8-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\5b9giuprkf-{0}-06098lyss8-06098lyss8.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\rpnxlxmcyd-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\irk6w1x7wn-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ghxiimntns-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\04u3q9wc6w-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\32ap0kv3wn-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\rue1q58z9w-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\icnj6yrq2x-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\o1c7q1gtoe-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\d8ue3djh1j-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\8dx61av5b0-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\2y4ihtj5fo-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\35puwcnm2b-{0}-493y06b0oq-493y06b0oq.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\muckl8rj7v-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\76txa8igb0-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\9q05j4tkmk-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\6070wt4d9f-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\hbmjn18fzh-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\nlcxszjppz-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\36i5xtgzha-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\rfjc3g0qwr-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\51z0te50n2-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\ort3chdw4x-{0}-47otxtyo56-47otxtyo56.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\mz2v3w0mlg-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\51pkujmsy8-{0}-l3n5xuwxn8-l3n5xuwxn8.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\me4jjvk3d1-{0}-ilo7uva0vt-ilo7uva0vt.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\g9aphxrnyu-{0}-qlccset4i1-qlccset4i1.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\httrrt1a1k-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\t3sujb96sk-{0}-ag7o75518u-ag7o75518u.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\gefpy98fwq-{0}-xzw0cte36n-xzw0cte36n.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\wikdo0logo-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\dk3g56pr1s-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\g48immf8oa-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\rjpyahz0hl-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\nv8b2srl5e-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\cyyvt47gyw-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\so4buxsyd9-{0}-jfsiqqwiad-jfsiqqwiad.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\n0893xvcfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\compressed\bq980zevfc-{0}-q5gohlpcpf-q5gohlpcpf.gz
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\staticwebassets.build.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\staticwebassets.development.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\swae.build.ex.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.dll
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\refint\studentmvc.dll
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.pdb
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\studentmvc.genruntimeconfig.cache
+C:\ASP.NET MVC\studentmvc\obj\Debug\net10.0\ref\studentmvc.dll

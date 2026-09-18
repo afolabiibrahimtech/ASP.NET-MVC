@@ -19,6 +19,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgb(112, 236, 236);
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -29,6 +30,10 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
-.mycontainer {
-color: #5c17a0;
+
+.mywrapper{
+  background-color: red;
+}
+.mycontainer{
+  border:  solid red 3px;
 }
