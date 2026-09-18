@@ -1,0 +1,6 @@
+#ASP.NET core , client lib
+wwroot/lib/
+**/wwwroot/lib/
+
+.env
+.eve.*

@@ -1,0 +1,16 @@
+@model List<MyMvcTest.Models.Student>
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h1>Students</h1>
+
+<ul>
+@foreach (var student in Model)
+{
+    <li>
+        @student.Id - @student.Name - @student.Program
+    </li>
+}
+</ul>

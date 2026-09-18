@@ -1,0 +1,21 @@
+@model List<Courses>
+
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<div class="body-text page-content">
+    <div class="text-center shadow-text">
+        <h1>Courses</h1>
+    </div>
+    
+    <ol>
+    @foreach (var course in Model)
+    {
+        <li>
+            <p><strong>Title:</strong> @course.Title</p>
+            <p><strong>Description:</strong> @course.Description</p>
+        </li>
+    }
+    </ol>
+</div>
