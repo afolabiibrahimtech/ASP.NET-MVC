@@ -10,8 +10,9 @@
    </li>
 </div> *@
 
-@model Student
-<h2>Student information</h2>
+//Example 1 templete=========================
+@* @model Student *@
+@* <h2>Student information</h2>
 <table class="table table-dark" border="1">
    <tr>
       <th> ID</th>
@@ -24,3 +25,70 @@
       <td>@Model.Age</td>
    </tr>
 </table>
+
+//Exmaple 2 ========================== *@
+
+@* @model List<studentmvc.Models.Student>
+   <h2>Student List</h2>
+   <table class="table table-dark" border="1">
+
+   <tr>
+      <th> ID</th>
+      <th>Name</th>
+      <th>Age</th>
+   </tr>
+   @foreach(var student in Model)
+   {
+       <tr>
+         <td>@student.Id</td>
+         <td>@student.Name</td>
+         <td>@student.Age</td>
+      </tr>
+   }
+  
+   </table>
+ *@
+
+//Example 3 ==============================================
+
+@model studentmvc.ViewModels.StudentCourseViewModel
+<h2>Student and Course list</h2>
+<h2>Student List</h2>
+   <table class="table table-dark" border="1">
+
+   <tr>
+      <th> ID</th>
+      <th>Name</th>
+      <th>Age</th>
+   </tr>
+   @foreach(var student in Model.students)
+   {
+       <tr>
+         <td>@student.Id</td>
+         <td>@student.Name</td>
+         <td>@student.Age</td>
+      </tr>
+   }
+  
+   </table>
+   <h2>Course List</h2>
+   <table class="table table-dark" border="1">
+
+   <tr>
+      <th> ID</th>
+      <th>Name</th>
+      <th>Credit</th>
+      <th>Description</th>
+   </tr>
+   @foreach(var course in Model.courses)
+   {
+       <tr>
+         <td>@course.Id</td>
+         <td>@course.Name</td>
+         <td>@course.Credit</td>
+         <td>@course.Description</td>
+      </tr>
+   }
+  
+   </table>
+
