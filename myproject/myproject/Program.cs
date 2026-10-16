@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+ using Microsoft.EntityFrameworkCore;
 using myproject.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,9 +24,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Student}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 

@@ -7,35 +7,32 @@
 <h1>Create Student</h1>
 
 <form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-    <!-- Student Name -->
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
-
         <input asp-for="Name" class="form-control" />
-
-        <span asp-validation-for="Name"
-              class="text-danger"></span>
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <!-- Student Program -->
     <div class="mb-3">
         <label asp-for="Program" class="form-label"></label>
-
         <input asp-for="Program" class="form-control" />
-
-        <span asp-validation-for="Program"
-              class="text-danger"></span>
+        <span asp-validation-for="Program" class="text-danger"></span>
     </div>
 
-    <!-- Submit button -->
-    <button type="submit" class="btn btn-primary">
-        Save Student
-    </button>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
 
-    <!-- Return to Index -->
-    <a asp-action="Index" class="btn btn-secondary">
-        Back
-    </a>
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" type="tel" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
 
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
