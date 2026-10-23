@@ -35,25 +35,25 @@ namespace myproject.Controllers
 
         // POST: /Student/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken] // Verifies the anti-forgery token for this POST request.
         public IActionResult Create(Student student)
         {
-            // Check whether the submitted data is valid
-            if (ModelState.IsValid)
+            // ASP.NET Core has already model-bound the submitted values and
+            // evaluated the Student model's Data Annotation validation rules.
+            if (!ModelState.IsValid)
             {
-                // Add the student to the Students table
-                _context.Students.Add(student);
-
-                // Save the changes to the database
-                _context.SaveChanges();
-
-                // Return to the student list
-                return RedirectToAction(nameof(Index));
+                // Return the form with validation errors. Do not save invalid data.
+                return View(student);
             }
 
-            // If validation fails, display the form again
-            return View(student);
+            // Only valid input reaches the database insert.
+            _context.Students.Add(student);
+            _context.SaveChanges();
+
+            // Redirect after a successful POST to avoid resubmitting on refresh.
+            return RedirectToAction(nameof(Index));
         }
+
         // GET: /Student/Edit/1
         public IActionResult Edit(int? id)
         {
@@ -71,26 +71,45 @@ namespace myproject.Controllers
 
             return View(student);
         }
+
         // POST: /Student/Edit/1
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken] // Rejects requests with missing or invalid anti-forgery data.
         public IActionResult Edit(int id, Student student)
         {
+            // Confirm that the route ID matches the ID submitted with the form.
             if (id != student.Id)
+            {
+                return BadRequest();
+            }
+
+            // Check Data Annotation errors before making any database changes.
+            if (!ModelState.IsValid)
+            {
+                // The asp-validation-for elements can display these model errors.
+                return View(student);
+            }
+
+            // Load the existing record; do not assume the submitted ID is valid.
+            var existingStudent = _context.Students.Find(id);
+
+            if (existingStudent == null)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
-                _context.Students.Update(student);
-                _context.SaveChanges();
+            // Update only the fields this form is allowed to change.
+            existingStudent.Name = student.Name;
+            existingStudent.Program = student.Program;
+            existingStudent.Email = student.Email;
+            existingStudent.Phone = student.Phone;
 
-                return RedirectToAction(nameof(Index));
-            }
+            // Save only after validation and record checks pass.
+            _context.SaveChanges();
 
-            return View(student);
+            return RedirectToAction(nameof(Index));
         }
+
         // GET: /Student/Delete/1
         public IActionResult Delete(int? id)
         {
@@ -108,6 +127,7 @@ namespace myproject.Controllers
 
             return View(student);
         }
+
         // POST: /Student/Delete/1
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

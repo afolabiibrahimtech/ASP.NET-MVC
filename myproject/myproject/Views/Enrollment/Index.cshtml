@@ -1,0 +1,45 @@
+@model List<myproject.Models.Enrollment>
+
+<h1>Enrollments</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Enroll Student</a>
+</p>
+
+<table id="enrollmentsTable" class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Student ID</th>
+            <th>Course ID</th>
+            <th>Student</th>
+            <th>Course</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var enrollment in Model)
+        {
+            <tr>
+                <td>@enrollment.Id</td>
+                <td>@enrollment.StudentId</td>
+                <td>@enrollment.CourseId</td>
+                <td>@enrollment.Student?.Name</td>
+                <td>@enrollment.Course?.CourseCode - @enrollment.Course?.CourseName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#enrollmentsTable").DataTable({
+                pageLength: 5,
+                lengthMenu: [5, 10, 25],
+                ordering: true,
+                searching: true,
+                paging: true
+            });
+        });
+    </script>
+}
