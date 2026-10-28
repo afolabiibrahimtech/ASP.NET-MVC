@@ -1,21 +1,91 @@
 using Microsoft.AspNetCore.Mvc;
+using learningactivity1.Data;
 using learningactivity1.Models;
 
 namespace learningactivity1.Controllers;
 
 public class CoursesController : Controller
 {
+    // GET: /Courses
     public IActionResult Index()
     {
-        List<Courses> courseList = new List<Courses>
-        {
-            new Courses { Title = "Web Design and Development", Description = "HTML, CSS, and JavaScript fundamentals for building websites" },
-            new Courses { Title = "Mathematics For Software Development", Description = "Discrete math, logic, and problem-solving for programmers" },
-            new Courses { Title = "Software Development Techniques", Description = "Data Structures And ALgorithm" },
-            new Courses { Title = "Software Development and Object-Oriented", Description = "Object-oriented programming concepts and software development using C#" },
-            new Courses { Title = "Web Programming Foundations", Description = "Building web applications using the Model-View-Controller (MVC) pattern in ASP.NET Core" }
-        };
+        var courses = CourseRepository.GetAll();
+        return View(courses);
+    }
 
-        return View(courseList);
+    // GET: /Courses/Create
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View(new Course());
+    }
+
+    // POST: /Courses/Create
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Create(Course course)
+    {
+        course.CourseCode = course.CourseCode?.Trim().ToUpper() ?? string.Empty;
+
+        // Server-side rule that Data Annotations can't express: no duplicate codes.
+        if (CourseRepository.CodeExists(course.CourseCode))
+        {
+            ModelState.AddModelError(nameof(Course.CourseCode), "A course with this code already exists.");
+        }
+
+        if (!ModelState.IsValid)
+        {
+            // Send the user back to the form with their input and the error messages.
+            return View(course);
+        }
+
+        CourseRepository.Add(course);
+        TempData["Message"] = $"{course.CourseCode} was added successfully.";
+        return RedirectToAction(nameof(Index));
+    }
+
+    // GET: /Courses/Edit/5
+    [HttpGet]
+    public IActionResult Edit(int id)
+    {
+        var course = CourseRepository.GetById(id);
+        if (course == null)
+        {
+            return NotFound();
+        }
+
+        return View(course);
+    }
+
+    // POST: /Courses/Edit/5
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Edit(int id, Course course)
+    {
+        if (id != course.Id)
+        {
+            return BadRequest();
+        }
+
+        if (CourseRepository.GetById(id) == null)
+        {
+            return NotFound();
+        }
+
+        course.CourseCode = course.CourseCode?.Trim().ToUpper() ?? string.Empty;
+
+        if (CourseRepository.CodeExists(course.CourseCode, excludeId: id))
+        {
+            ModelState.AddModelError(nameof(Course.CourseCode), "Another course already uses this code.");
+        }
+
+        if (!ModelState.IsValid)
+        {
+            return View(course);
+        }
+
+        CourseRepository.Update(course);
+        TempData["Message"] = $"{course.CourseCode} was updated successfully.";
+        return RedirectToAction(nameof(Index));
     }
 }

@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -32,8 +32,8 @@ body {
 .page-content{ 
   padding: 20px;
   font: 1em sans-serif;
-  background-color:#363c82;
-  border-radius: 10px;
+  background-color:#0d1b2a;
+
 }
 .myimage{
 border-radius: 10px ;
@@ -47,7 +47,13 @@ text-shadow: 2px 2px 4px #000000;
 .body-text{
   color: white;
 }
+.dark-text{
+  color: #0d1b2a;
+}
 
- .nav-barr{
-    color: #0077cc;
-  }
+.navbar {
+  background-color: #fcfcfc;
+}
+.nav-link:hover {
+  color: #5f6cff;
+}

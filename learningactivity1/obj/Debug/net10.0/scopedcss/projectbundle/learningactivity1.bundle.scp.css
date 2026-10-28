@@ -41,11 +41,13 @@ button.accept-policy[b-4hmev9yw4t] {
 }
 
 .footer[b-4hmev9yw4t] {
-  position: absolute;
-  bottom: 0;
+  position: static;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px;}
+  line-height: 60px;
+  margin-top: 0%;
+   background-color: #fcfcfc;
+}
 
   .nav-barr[b-4hmev9yw4t]{
     color: #0077cc;
