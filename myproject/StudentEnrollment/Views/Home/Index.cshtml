@@ -1,8 +1,28 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
+
+    var demoUser =
+        Context.Session.GetString("DemoUser");
 }
 
-<div class="text-center">
-    <h1 class="display-4">Registeration System</h1>
-  <p>Register students, add courses, and enroll students into courses — all from one simple dashboard.</p>
-</div>
+<h1>Home</h1>
+
+@if (!string.IsNullOrEmpty(demoUser))
+{
+    <p>
+        Hello, @demoUser.
+        The demo session value is present.
+    </p>
+}
+else
+{
+    <p>
+        You are not signed in to the classroom demo.
+    </p>
+
+    <a asp-controller="Account"
+       asp-action="Login"
+       class="btn btn-primary">
+        Login
+    </a>
+}

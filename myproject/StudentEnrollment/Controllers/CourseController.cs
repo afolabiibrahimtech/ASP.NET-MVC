@@ -16,18 +16,32 @@ namespace StudentEnrollment.Controllers
             _context = context;
         }
 
+        private bool IsDemoUserLoggedIn()
+        {
+            return !string.IsNullOrEmpty(
+                HttpContext.Session.GetString("DemoUser"));
+        }
+
         // GET: /Course/Index
         public IActionResult Index()
         {
-            // Get all courses from the database
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             var courses = _context.Courses.ToList();
 
-            // Send the courses to Index.cshtml
             return View(courses);
         }
         // GET: /Course/Create
         public IActionResult Create()
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             // Display the empty Create form
             return View();
         }
@@ -37,6 +51,11 @@ namespace StudentEnrollment.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Course course)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             // Check whether the submitted data is valid
             if (ModelState.IsValid)
             {
@@ -56,6 +75,11 @@ namespace StudentEnrollment.Controllers
         // GET: /Course/Edit/1
         public IActionResult Edit(int? id)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             if (id == null)
             {
                 return NotFound();
@@ -75,6 +99,11 @@ namespace StudentEnrollment.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Course course)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             if (id != course.Id)
             {
                 return NotFound();
@@ -93,6 +122,11 @@ namespace StudentEnrollment.Controllers
         // GET: /Course/Delete/5
         public IActionResult Delete(int id)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             var course = _context.Courses.Find(id);
             if (course == null)
             {
@@ -106,6 +140,11 @@ namespace StudentEnrollment.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             var course = _context.Courses.Find(id);
             if (course != null)
             {
@@ -114,5 +153,6 @@ namespace StudentEnrollment.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+        
     }
 }

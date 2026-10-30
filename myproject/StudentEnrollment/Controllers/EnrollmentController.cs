@@ -14,9 +14,20 @@ namespace StudentEnrollment.Controllers
             _context = context;
         }
 
+        private bool IsDemoUserLoggedIn()
+        {
+            return !string.IsNullOrEmpty(
+                HttpContext.Session.GetString("DemoUser"));
+        }
+
         // GET: /Enrollment
         public IActionResult Index()
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             var enrollments = _context.Enrollments
                 .Include(e => e.Student)
                 .Include(e => e.Course)
@@ -28,6 +39,11 @@ namespace StudentEnrollment.Controllers
         // GET: /Enrollment/Create
         public IActionResult Create()
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             return View();
         }
 
@@ -36,6 +52,11 @@ namespace StudentEnrollment.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Enrollment enrollment)
         {
+            if (!IsDemoUserLoggedIn())
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
             if (enrollment.StudentId > 0 && _context.Students.Find(enrollment.StudentId) == null)
             {
                 ModelState.AddModelError(nameof(Enrollment.StudentId),
