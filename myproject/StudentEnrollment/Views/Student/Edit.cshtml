@@ -1,0 +1,131 @@
+@model StudentEnrollment.Models.Student
+
+@{
+    ViewData["Title"] = "Edit Student";
+}
+
+<h1>Edit Student</h1>
+
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post" id="studentForm">
+    <!-- Keep the record ID when submitting the form. The server must still verify it. -->
+    <input type="hidden" asp-for="Id" />
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <span id="nameError" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Program" class="form-label"></label>
+        <input asp-for="Program" class="form-control" />
+        <span asp-validation-for="Program" class="text-danger"></span>
+        <span id="programError" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" type="email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+        <span id="emailError" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" type="tel" placeholder="e.g. 403-555-1234" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+        <span id="phoneError" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("studentForm");
+
+            form.addEventListener("submit", function (event) {
+                const name = document.getElementById("Name").value.trim();
+                const program = document.getElementById("Program").value.trim();
+                const email = document.getElementById("Email").value.trim();
+                const phone = document.getElementById("Phone").value.trim();
+
+                const nameError = document.getElementById("nameError");
+                const programError = document.getElementById("programError");
+                const emailError = document.getElementById("emailError");
+                const phoneError = document.getElementById("phoneError");
+
+                nameError.textContent = "";
+                programError.textContent = "";
+                emailError.textContent = "";
+                phoneError.textContent = "";
+
+                let isValid = true;
+
+                const namePattern = /^[a-zA-Z\s'-]+$/;
+
+                if (name === "") {
+                    nameError.textContent = "Please enter the student's name.";
+                    isValid = false;
+                } else if (!namePattern.test(name)) {
+                    nameError.textContent =
+                        "Name must contain only letters, spaces, hyphens, or apostrophes.";
+                    isValid = false;
+                }
+
+                const programPattern = /^[a-zA-Z0-9\s&()'-]+$/;
+
+                if (program === "") {
+                    programError.textContent = "Please enter the student's program.";
+                    isValid = false;
+                } else if (!programPattern.test(program)) {
+                    programError.textContent = "Program contains invalid characters.";
+                    isValid = false;
+                } else if (!/[a-zA-Z]/.test(program)) {
+                    programError.textContent = "Program must contain at least one letter.";
+                    isValid = false;
+                }
+
+                // \x40 is the at-sign, written this way so Razor does not treat it as code.
+                const emailPattern = /^[^\s\x40]+\x40[^\s\x40]+\.[^\s\x40]{2,}$/;
+
+                if (email === "") {
+                    emailError.textContent = "Please enter the student's email.";
+                    isValid = false;
+                } else if (!emailPattern.test(email)) {
+                    emailError.textContent = "Please enter a valid email address.";
+                    isValid = false;
+                }
+
+                // Phone permits digits, spaces, hyphens, parentheses, dots, and a leading +.
+                const phonePattern = /^\+?[0-9\s().-]+$/;
+                // Count only the digits so formatting characters don't affect the length check.
+                const phoneDigits = phone.replace(/\D/g, "");
+
+                if (phone === "") {
+                    phoneError.textContent = "Please enter the student's phone number.";
+                    isValid = false;
+                } else if (!phonePattern.test(phone)) {
+                    phoneError.textContent =
+                        "Phone may only contain digits, spaces, hyphens, parentheses, dots, or a leading +.";
+                    isValid = false;
+                } else if (phoneDigits.length < 10 || phoneDigits.length > 15) {
+                    phoneError.textContent = "Phone number must contain 10 to 15 digits.";
+                    isValid = false;
+                }
+
+                // Prevent submitting invalid values from this browser form.
+                if (!isValid) {
+                    event.preventDefault();
+                }
+            });
+        });
+    </script>
+}
